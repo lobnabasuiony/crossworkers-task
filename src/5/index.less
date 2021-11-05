@@ -1,0 +1,80 @@
+/* DO NOT CHANGE THIS ROOT CLASS NAME*/
+.TASK_5 {
+@white:white;
+    /* Styles goes here */
+    *{
+        margin:0;
+        font-family:arial,tahoma,sans-serif;
+        font-size:12px;
+        font-weight:normal;
+        direction:ltr;
+      background:@white;
+    }
+    form {
+        margin:10% auto 0 auto;
+        padding:30px;
+        width:400px;
+        height:auto;
+        overflow:hidden;
+        background:@white;
+        border-radius:10px;
+    }
+    
+    form label {
+        font-size:14px;
+        color:darkgray;
+        cursor:pointer;
+    }
+    
+    form label,
+    form input {
+        float:left;
+    }
+    
+    form input {
+        margin:15px 0;
+        padding:15px 10px;
+        width:100%;
+        outline:none;
+        border:1px solid #bbb;
+        border-radius:20px;
+        display:inline-block;
+    }
+    
+    form input[type=text]:focus,
+    form input[type="password"]:focus {
+        border-color:cornflowerblue;
+    }
+    
+
+    
+    input[type=submit]:hover {
+        opacity:0.8;
+    }
+    
+    input[type="submit"]:active {
+        opacity:0.4;
+    }
+    
+    button{
+        padding:15px 50px;
+        width:auto;
+        background:#1abc9c;
+        border:none;
+        color:@white;
+        cursor:pointer;
+        display:inline-block;
+        float:right;
+        border-radius: 25px;
+    }
+    button:active{
+        opacity:0.4;
+    }
+
+    button:hover{
+    background-color: #1abc9ca6;
+    }
+
+    
+    
+}
